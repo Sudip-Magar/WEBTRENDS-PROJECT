@@ -1,0 +1,166 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: white;
+  background: #FB6C00;
+}
+
+::selection {
+  color: white;
+  background: #FB6C00;
+}
+
+.navbar-brand {
+  color: gray;
+}
+.navbar-brand span {
+  color: #FB6C00;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 20px 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: #FB6C00;
+  color: #f8f9fa;
+}
+
+.navbar-nav .nav-link.active {
+  color: #f8f9fa;
+  background: #FB6C00;
+}
+
+.banner {
+  background: url(../img/banner-bg.jpg);
+  height: 80vh;
+  position: relative;
+}
+.banner-ov {
+  background: url(../img/bg_line.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.banner .s {
+  height: 500px;
+}
+
+.container h4 {
+  color: #FB6C00;
+}
+
+.container-fluid {
+  background: #FB6C00;
+}
+.container-fluid h3 {
+  color: white;
+}
+.container-fluid .us {
+  text-align: center;
+}
+.container-fluid .us h3 {
+  color: white;
+}
+
+.ser h2 {
+  color: #FB6C00;
+}
+
+.grid {
+  padding-left: 25px;
+}
+.grid .grid-head {
+  position: relative;
+}
+.grid .grid-head i {
+  position: absolute;
+  top: -13px;
+  font-size: 70px;
+}
+.grid .grid-head .grid-content {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.port h3 {
+  color: #FB6C00;
+}
+.port ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  color: #FB6C00;
+}
+.port ul li a {
+  color: #FB6C00;
+  text-decoration: none;
+  border: 1px solid #FB6C00;
+  padding: 8px 12px;
+}
+.port ul li a:hover {
+  background: #FB6C00;
+  color: blue;
+}
+
+.team {
+  padding: 75px 0;
+}
+.team h3 {
+  color: #FB6C00;
+}
+.team .row .box {
+  border: 1px solid #FB6C00;
+  background: #FB6C00;
+}
+.team .row .box img {
+  width: 99.9%;
+}
+
+.map h2 {
+  color: #FB6C00;
+}
+
+.bt {
+  background: #FB6C00;
+  color: white;
+  padding: 10px 15px;
+  border: 2px solid #FB6C00;
+}
+
+.foot {
+  color: white;
+  background: #242424;
+}
+.foot-con p {
+  line-height: 20px;
+}
+.foot-con p span {
+  color: #FB6C00;
+}
+.foot-con a {
+  text-decoration: none;
+  color: #FB6C00;
+}
+.foot-con i {
+  margin: 5px 5px;
+  color: #FB6C00;
+}
+
+.down {
+  background: #131313;
+  color: white;
+}
+.down span {
+  color: #FB6C00;
+}/*# sourceMappingURL=style.css.map */
